@@ -1,8 +1,14 @@
 # Figures. Extra Challenge
 
-Given a class `Point`, an abstract class `Figure`, skeletons of classes `Triangle`, `Quadrilateral`, `Circle`, implement the following.
+The purpose of this exercise is to train you to work with classes, methods and inheritance.
 
-Make `Triangle`, `Quadrilateral`, `Circle` extend `Figure` class.
+Estimated workload of this exercise is _60 min_.
+
+### Description
+Please, make [`Triangle`](src/main/java/com/epam/rd/autotasks/figures/Triangle.java),
+[`Quadrilateral`](src/main/java/com/epam/rd/autotasks/figures/Quadrilateral.java),
+[`Circle`](src/main/java/com/epam/rd/autotasks/figures/Circle.java) classes
+extend [`Figure`](src/main/java/com/epam/rd/autotasks/figures/Figure.java) abstract class.
 
 Implement methods in `Triangle`, `Quadrilateral`, `Circle`:
 
@@ -30,6 +36,8 @@ Implement methods in `Triangle`, `Quadrilateral`, `Circle`:
      *Note*: double calculations are not completely accurate, use *error delta*, where applies.
 
   *Note for curious: it is almost like `equals()` but it is not. Method `equals` requires consistent behavior alongside `hashCode()` and it is quite complicated to establish in terms of approximate equality like in this exercise*
+
+[`Point`](src/main/java/com/epam/rd/autotasks/figures/Point.java) class is already there.
 
 You may use `main` method of `Figure` class to tryout your code.
 
